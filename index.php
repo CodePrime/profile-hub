@@ -54,8 +54,8 @@
 				
 			</div>
 		</div>
-		<button type="button" class="btn btn-primary btn-large btn-main" id="btn1">My Skillz</button>
-		<button type="button" class="btn btn-primary btn-large btn-main" id="btn2">My Personality</button>
+		<button type="button" class="btn btn-primary btn-large btn-main" id="btn1">More About Me</button>
+		<button type="button" class="btn btn-primary btn-large btn-main" id="btn2">Skills and Qualities</button>
 	</div>
 </header>
 
