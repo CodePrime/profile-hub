@@ -7,7 +7,7 @@ font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
 color:white;
 text-align:center;
 margin:0;
-background-color:transparent;
+background-color:black;
 border:none;
 }
 
@@ -119,18 +119,51 @@ text-align:center;
 
 .skills-1>h1, .skills-2>h1 {
 	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
-	padding-top:150px;
+	padding-top:50px;
 	font-size:80px;
 	font-weight:550;
 }
 
 .skills-2>h2, .skills-1>h2 {
 	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
-	padding-top:60px;
-	font-size:40px;
+	padding-top:30px;
+	font-size:20px;
 	font-weight:350;
 	line-height: 150%;
 }
+
+.btn-skills-1 {
+	width:120px;
+	margin-top:40px;
+	color:#ff6600;
+	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
+	border:none;
+	background-color:white;
+	border-radius:20px;
+}
+
+.btn-skills-1:hover {
+	color:white;
+	background-color:#ff6600;
+	border:1px solid white;
+}
+
+.btn-skills-2 {
+	width:120px;
+	margin-top:40px;
+	color:black;
+	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
+	border:none;
+	background-color:white;
+	border-radius:20px;
+}
+.btn-skills-2:hover {
+	border:1px solid white;
+	color:white;
+	background-color:black;
+}
+
+
 
 .resume-inner {
 	text-align:center;
@@ -172,6 +205,32 @@ text-align:center;
 	border-color:white;
 }
 
+#about{
+	margin-top:35px;
+	margin-bottom:20px;
+	height:100%;
+}
+
+.about-inner h1{
+	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size:50px;
+}
+
+.about-inner p {
+	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+	font-size:20px;
+	line-height:150%;
+}
+
+.icon-holder {
+	height:100%;
+	text-align:center;
+	padding:30px;
+}
+
+.icon-holder>i {
+	font-size:150px;
+}
 
 @media (max-width:768px)
 {
@@ -184,6 +243,11 @@ text-align:center;
 	}
 	.btn1 {
 		margin-top:0px;
+	}
+
+	#about {
+		margin-top:0px;
+		margin-bottom:0px;
 	}
 }
 
@@ -213,4 +277,6 @@ text-align:center;
 	border-top:3px solid white;
 	float:left;
 	}
+
+
 }

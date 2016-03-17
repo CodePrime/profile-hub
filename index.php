@@ -57,23 +57,53 @@
 				
 			</div>
 		</div>
-		<button type="button" class="btn btn-primary btn-large btn-main" id="btn1">More About Me</button></a>
+		<a href="#about"><button type="button" class="btn btn-primary btn-large btn-main" id="btn1">More About Me</button></a>
 		<a href="#skills-section"><button type="button" class="btn btn-primary btn-large btn-main" id="btn2">Skills and Qualities</button></a>
 	</div>
 </header>
+
+<div class="container" id="about">
+	<div class="row">
+		<div class="col-md-6 about-inner">
+		<h1><i class="fa fa-star" style="color:#ff6600"></i> About me</h1>
+		<p>Lorem ipsum dolor sit amet, ornare vitae augue fermentum, pede vitae, integer libero, massa nibh at nec adipiscing, sit et wisi pharetra est etiam. Nisl eu phasellus nulla pharetra, enim donec at, metus mi nec conubia ante integer, nonummy eget, donec lectus justo imperdiet leo.</p>
+		<p>Ac nulla ullam ornare arcu sunt torquent, ut nec nunc vehicula aliquam eu, vitae luctus vestibulum, aliquet diam nunc tincidunt nunc odio cursus. </p>
+		</div>
+		<div class="col-md-6 about-inner">
+		<h1><i class="fa fa-star" style="color:#ff6600"></i> Education</h1>
+		<p>Pellentesque hac porta pharetra ullamcorper nunc auctor, vitae non eu sapien accumsan. Ultricies ut enim id, hac lacus consequat integer.</p>
+		<p>Dolor non scelerisque tristique porta, morbi vivamus dictumst vehicula suspendisse nec, penatibus auctor quasi eget mauris ante.</p>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid icon-holder">
+</div>
 
 <div class="container" id="skills-section">
 	<div class="row">
 		<div class="col-md-6 col-sm-6 no-gutter">
 			<div class="skills-1">
 			<h1>Web<br />Design</h1>
-			<h2>Simple porfolio pages or<br />business fronts</h2>
+			<h2>For personal or business </h2>
+			<hr style="width:50%" >
+			<p>Scalable from simple to complex</p>
+			<p>Responsive and fast</p>
+			<p>Personalized</p>
+			<button type="button" class="btn btn-default btn-large btn-skills-1">Github</button>
+			<hr style="width:50%" >
 			</div>
 		</div>
 		<div class="col-md-6 col-sm-6 no-gutter">
 			<div class="skills-2">
 			<h1>Technical<br />Writing</h1>
 			<h2>Literally the next Shakespear</h2>
+			<hr style="width:50%" >
+			<p>Something something linguistic</p>
+			<p>Blah Blah</p>
+			<p>What's a wurrrrrrd</p>
+			<button type="button" class="btn btn-default btn-large btn-skills-2">Publications</button>
+			<hr style="width:50%" >
 			</div>
 		</div>
 	</div>
@@ -83,7 +113,6 @@
 	<div class="row">
 		<div class="resume-inner">
 		<h1>MY RESUME</h1>
-		<p>Hire me I'm poor</p>
 		<i class="fa fa-arrow-down resume-arrow"></i>
 			<div class="resume-btn-container">
 				<button type="button" class="btn btn-default btn-large btn-resume">Resume</button>
