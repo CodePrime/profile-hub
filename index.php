@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--core Bootstrap CSS-->
  	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+ 	<!--Font Awesome-->
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 	<!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -44,6 +46,7 @@
 		</div>
 	</nav>
 <!--navbar-->
+
 <header>
 	<div class="header-filler">
 		<h1>WELCOME TO MY PROFILE</h1>
@@ -54,10 +57,40 @@
 				
 			</div>
 		</div>
-		<button type="button" class="btn btn-primary btn-large btn-main" id="btn1">More About Me</button>
-		<button type="button" class="btn btn-primary btn-large btn-main" id="btn2">Skills and Qualities</button>
+		<button type="button" class="btn btn-primary btn-large btn-main" id="btn1">More About Me</button></a>
+		<a href="#skills-section"><button type="button" class="btn btn-primary btn-large btn-main" id="btn2">Skills and Qualities</button></a>
 	</div>
 </header>
+
+<div class="container" id="skills-section">
+	<div class="row">
+		<div class="col-md-6 col-sm-6 no-gutter">
+			<div class="skills-1">
+			<h1>Web<br />Design</h1>
+			<h2>Simple porfolio pages or<br />business fronts</h2>
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-6 no-gutter">
+			<div class="skills-2">
+			<h1>Technical<br />Writing</h1>
+			<h2>Literally the next Shakespear</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container" id="resume">
+	<div class="row">
+		<div class="resume-inner">
+		<h1>MY RESUME</h1>
+		<p>Hire me I'm poor</p>
+		<i class="fa fa-arrow-down resume-arrow"></i>
+			<div class="resume-btn-container">
+				<button type="button" class="btn btn-default btn-large btn-resume">Resume</button>
+			</div>
+		</div>
+	</div>
+</div>
 
 <!--jQuery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

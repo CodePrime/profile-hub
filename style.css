@@ -91,6 +91,86 @@ text-align:center;
 	background-image:url(image/profile-pic.jpg);
 	
 }
+#skills-section>div{
+	padding:0;
+	margin:0;
+}
+
+#skills-section .no-gutter {
+	margin:0;
+	padding:0;
+}
+
+.skills-1 {
+	height:800px;
+	width:100%;
+	background-color:#ff6600;
+	text-align:center;
+	color:white;
+}
+
+.skills-2 {
+	height:800px;
+	width:100%;
+	background-color:black;
+	text-align:center;
+	color:white;
+}
+
+.skills-1>h1, .skills-2>h1 {
+	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
+	padding-top:150px;
+	font-size:80px;
+	font-weight:550;
+}
+
+.skills-2>h2, .skills-1>h2 {
+	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+	padding-top:60px;
+	font-size:40px;
+	font-weight:350;
+	line-height: 150%;
+}
+
+.resume-inner {
+	text-align:center;
+	color:black;
+}
+
+.resume-inner>h1 {
+	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
+	padding-top:80px;
+	font-size:150px;
+	font-weight:450;
+
+}
+
+.resume-arrow {
+	font-size:150px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.resume-btn-container{
+	height:150px;
+	width:400px;
+	display:block;
+	margin:0 auto;
+}
+.btn-resume {
+	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size:60px;
+	height:150px;
+	width:400px;
+	border-radius:20px;
+	border:3px solid #3b3738;
+	margin-bottom: 350px;
+}
+
+.btn-resume:hover{
+	background-color:black;
+	color:white;
+	border-color:white;
+}
 
 
 @media (max-width:768px)
@@ -111,5 +191,26 @@ text-align:center;
 	header .header-filler {
 		padding-top:140px;
 		padding-bottom:140px;
+	}
+}
+
+@media (min-width: 768px){
+	.skills-1 {
+	height:800px;
+	width:700px;
+	background-color:#ff6600;
+	border-bottom:3px solid white;
+	border-top:3px solid white;
+	float:right;
+	}
+
+	.skills-2 {
+	height:800px;
+	width:700px;
+	background-color:black;
+	border-left:3px solid white;
+	border-bottom:3px solid white;
+	border-top:3px solid white;
+	float:left;
 	}
 }
