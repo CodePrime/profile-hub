@@ -101,6 +101,8 @@ text-align:center;
 	padding:0;
 }
 
+
+
 .skills-1 {
 	height:800px;
 	width:100%;
@@ -163,8 +165,6 @@ text-align:center;
 	background-color:black;
 }
 
-
-
 .resume-inner {
 	text-align:center;
 	color:black;
@@ -173,13 +173,13 @@ text-align:center;
 .resume-inner>h1 {
 	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
 	padding-top:80px;
-	font-size:150px;
+	font-size:100px;
 	font-weight:450;
 
 }
 
 .resume-arrow {
-	font-size:150px;
+	font-size:100px;
 	padding-top:50px;
 	padding-bottom:50px;
 }
@@ -232,6 +232,16 @@ text-align:center;
 	font-size:150px;
 }
 
+.hr-gradient {
+	border:none;
+	height:1px;
+	background-color:black;
+	width:100px;
+}
+
+
+/*media sizes*/
+
 @media (max-width:768px)
 {
 	header .header-filler {
@@ -261,7 +271,7 @@ text-align:center;
 @media (min-width: 768px){
 	.skills-1 {
 	height:800px;
-	width:700px;
+	width:600px;
 	background-color:#ff6600;
 	border-bottom:3px solid white;
 	border-top:3px solid white;
@@ -270,13 +280,12 @@ text-align:center;
 
 	.skills-2 {
 	height:800px;
-	width:700px;
+	width:600px;
 	background-color:black;
 	border-left:3px solid white;
 	border-bottom:3px solid white;
 	border-top:3px solid white;
 	float:left;
 	}
-
 
 }

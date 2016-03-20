@@ -51,7 +51,7 @@
 	<div class="header-filler">
 		<h1>WELCOME TO MY PROFILE</h1>
 		<hr style="width:10%">
-		<p>I hope you enjoy your stay! Check out everything about me below!</p>
+		<p>I hope you enjoy your stay!</p>
 		<div class="outer-portrait">
 			<div class="portrait-container">
 				
@@ -75,10 +75,12 @@
 		<p>Dolor non scelerisque tristique porta, morbi vivamus dictumst vehicula suspendisse nec, penatibus auctor quasi eget mauris ante.</p>
 		</div>
 	</div>
+	<hr class="hr-gradient">
 </div>
 
-<div class="container-fluid icon-holder">
-</div>
+
+
+
 
 <div class="container" id="skills-section">
 	<div class="row">
