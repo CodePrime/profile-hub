@@ -78,13 +78,9 @@
 	<hr class="hr-gradient">
 </div>
 
-
-
-
-
 <div class="container" id="skills-section">
 	<div class="row">
-		<div class="col-md-6 col-sm-6 no-gutter">
+		<div class="col-md-6 no-gutter">
 			<div class="skills-1">
 			<h1>Web<br />Design</h1>
 			<h2>For personal or business </h2>
@@ -96,7 +92,7 @@
 			<hr style="width:50%" >
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-6 no-gutter">
+		<div class="col-md-6 no-gutter">
 			<div class="skills-2">
 			<h1>Technical<br />Writing</h1>
 			<h2>Literally the next Shakespear</h2>
@@ -122,6 +118,32 @@
 		</div>
 	</div>
 </div>
+
+
+	<div class="row" id="footer" >
+		<div class="col-md-8">
+			<div class="form-container">
+				<div class="form-inner">
+					<form class="footer-form" action="#" method="POST">
+						<input class="form-field" type="text" name="name" value="name"><br />
+						<input class="form-field" type="text" name="email" value="email">
+						<textarea class="form-field" name="comment" rows="4" cols="25">Comment</textarea>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="contact-icon">
+				<ul class="icon-list">
+				<li><i class="fa fa-linkedin-square"></i><span class="icon-text">  LinkedIn</span></li>
+				<li><i class="fa fa-facebook-official"></i><span class="icon-text">  Facebook</span></li>
+				<li><i class="fa fa-reddit-square"></i><span class="icon-text">  Reddit(?!)</span></li>
+				<li><i class="fa fa-envelope"></i><span class="icon-text">  E-Mail</span></li>
+				</ul>
+			</div>
+		</div>
+
 
 <!--jQuery-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>

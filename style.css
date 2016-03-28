@@ -43,7 +43,7 @@ text-align:center;
 
 .header-filler h1{
 	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
-	font-size:90px;
+	font-size:6em;
 	font-weight: 700;
 	color:white;
 
@@ -69,7 +69,6 @@ text-align:center;
 	color:#3b3738;
 	background-color:white;
 	border-color:#3b3738;
-
 }
 
 
@@ -104,7 +103,7 @@ text-align:center;
 
 
 .skills-1 {
-	height:800px;
+	height:45em;
 	width:100%;
 	background-color:#ff6600;
 	text-align:center;
@@ -112,7 +111,7 @@ text-align:center;
 }
 
 .skills-2 {
-	height:800px;
+	height:45em;
 	width:100%;
 	background-color:black;
 	text-align:center;
@@ -126,7 +125,7 @@ text-align:center;
 	font-weight:550;
 }
 
-.skills-2>h2, .skills-1>h2 {
+.skills-2>h2, .skills-1>h2, .form-inner>h2 {
 	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 	padding-top:30px;
 	font-size:20px;
@@ -142,6 +141,7 @@ text-align:center;
 	border:none;
 	background-color:white;
 	border-radius:20px;
+
 }
 
 .btn-skills-1:hover {
@@ -163,6 +163,10 @@ text-align:center;
 	border:1px solid white;
 	color:white;
 	background-color:black;
+}
+
+#resume {
+	margin-bottom: 50px;
 }
 
 .resume-inner {
@@ -239,7 +243,50 @@ text-align:center;
 	width:100px;
 }
 
+#footer {
+	background-color:black;
+	margin:0px;
+}
 
+.form-field {
+	margin:15px;
+	width:90%;
+	padding:20px;
+	border: 2px solid black;
+	border-radius:20px;
+	resize:none;
+}
+
+
+.footer-form {
+	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.form-container, .contact-icon{
+	margin: 0 auto;
+}
+
+.contact-icon {
+	padding-top:20px;
+
+}
+
+.form-inner {
+	max-width:600px;
+	margin: 0 auto;
+}
+
+.icon-list {
+	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size:50px;
+	list-style:none;
+	color:white;
+	text-align:left;
+}
+
+.icon-text {
+	font-size: 30px;s
+}
 /*media sizes*/
 
 @media (max-width:768px)
@@ -249,7 +296,7 @@ text-align:center;
 	}
 
 	.btn-main {
-	margin: 15px;
+		margin: 15px;
 	}
 	.btn1 {
 		margin-top:0px;
@@ -259,6 +306,19 @@ text-align:center;
 		margin-top:0px;
 		margin-bottom:0px;
 	}
+	
+}
+
+@media (max-width: 992px)
+{
+	.icon-list {
+		text-align:center;
+	}
+	/*
+	.contact-icon ul>li {
+		display:inline;
+	}
+	*/
 }
 
 @media (min-width: 1200px) {
@@ -268,7 +328,7 @@ text-align:center;
 	}
 }
 
-@media (min-width: 768px){
+@media (min-width: 1400px){
 	.skills-1 {
 	height:800px;
 	width:600px;
