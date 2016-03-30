@@ -120,10 +120,27 @@
 </div>
 
 
-	<div class="row" id="footer" >
-		<div class="col-md-8">
+<div class="row" id="footer">
+	<div class="col-md-12 col-lg-12 no-gutter" id="contact-section">
+	<h1 class="footer-header">Contact Me</h1>
+		<hr class="hr-footer" />
+		<div class="contact-icon-container">
+			<ul >
+				<li class="footer-list-item"><a href="#contact-section"><button type="button" class="btn-footer-list-item"><i class="fa fa-angle-left"></i>&nbsp&nbsp&nbsp<i class="fa fa-envelope"></i>&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></button></a></li>
+				<li class="footer-list-item"><a href="#"><button type="button" class="btn-footer-list-item"><i class="fa fa-angle-left"></i>&nbsp&nbsp&nbsp<i class="fa fa-facebook">&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></i></button></a></li>
+				<li class="footer-list-item"><a href="#"><button type="button" class="btn-footer-list-item"><i class="fa fa-angle-left"></i>&nbsp&nbsp&nbsp<i class="fa fa-linkedin">&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></i></button></a></li>
+				<li class="footer-list-item"><a href="#"><button type="button" class="btn-footer-list-item"><i class="fa fa-angle-left"></i>&nbsp&nbsp&nbsp<i class="fa fa-twitter">&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></i></button></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!--
+<div class="row" id="footer">
+	<div class="col-md-6">
 			<div class="form-container">
 				<div class="form-inner">
+				<h1 style="color:white">Questions, comments, suggestions? Leave em here!</h1>
 					<form class="footer-form" action="#" method="POST">
 						<input class="form-field" type="text" name="name" value="name"><br />
 						<input class="form-field" type="text" name="email" value="email">
@@ -132,9 +149,10 @@
 					</form>
 				</div>
 			</div>
-		</div>
-		<div class="col-md-4">
+	</div>
+		<div class="col-md-6">
 			<div class="contact-icon">
+				<h1 style="color:white">Also find me here...</h1>
 				<ul class="icon-list">
 				<li><i class="fa fa-linkedin-square"></i><span class="icon-text">  LinkedIn</span></li>
 				<li><i class="fa fa-facebook-official"></i><span class="icon-text">  Facebook</span></li>
@@ -143,6 +161,8 @@
 				</ul>
 			</div>
 		</div>
+	</div>
+	-->
 
 
 <!--jQuery-->

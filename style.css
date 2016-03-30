@@ -17,6 +17,10 @@ border:none;
 	font-weight:400;
 }
 
+.navbar-default .navbar-nav>li>a:focus{
+	color:#ff6600;
+	font-weight:700;
+}
 .navbar-default .navbar-nav>li>a:hover {
 	color:#ff6600;
 	font-weight:700;
@@ -31,6 +35,7 @@ header {
 	background-position:center;
 	background-size:cover;
 	display:block;
+	overflow:hidden;
 }
 
 header .header-filler {
@@ -99,8 +104,6 @@ text-align:center;
 	margin:0;
 	padding:0;
 }
-
-
 
 .skills-1 {
 	height:45em;
@@ -244,8 +247,89 @@ text-align:center;
 }
 
 #footer {
+	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
 	background-color:black;
+	height:100%;
+	width:100%;
 	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+
+
+.contact-icon-container{
+	margin: 0 auto;
+	height:100%;
+	list-style-type:none;
+}
+
+.contact-icon-container>ul {
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+
+.hr-footer{
+	width:3%;
+	color:white;
+	margin-top:2.5em;
+}
+.footer-list-item {
+	margin:1em 2em;
+	display:inline-block;
+}
+
+.footer-list-item>a{
+	text-decoration:none;
+}
+
+.footer-header {
+	font-size:50px;
+	font-weight:300;
+	color:white;
+	text-align:center;
+	margin-top:1em;
+}
+.btn-footer-list-item {
+	background-color:black;
+	width:140px;
+	height:40px;
+	border-style:solid;
+	border-width: 0px 1px 0px 1px;
+	font-size:30px;
+	color:white;
+	padding:0;
+	margin:0;
+	box-shadow:none;
+}
+
+.btn-footer-list-item:hover{
+	color:black;
+	background-color:white;
+}
+
+.btn-footer-list-item:focus{
+	color:black;
+	background-color:white;
+	text-decoration:none;
+}
+
+
+.btn-footer-list-item:active{
+	color:white;
+	background-color:#ff6600;
+	border:none;
+}
+/*
+
+.form-container {
+	width:100%;
+	margin:0 auto;
+	border:2px solid red;
+}
+
+.form-inner {
+position:relative;
 }
 
 .form-field {
@@ -253,27 +337,21 @@ text-align:center;
 	width:90%;
 	padding:20px;
 	border: 2px solid black;
-	border-radius:20px;
+	border-radius:5px;
 	resize:none;
 }
 
 
-.footer-form {
-	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
 
 .form-container, .contact-icon{
 	margin: 0 auto;
 }
 
 .contact-icon {
-	padding-top:20px;
-
-}
-
-.form-inner {
-	max-width:600px;
-	margin: 0 auto;
+	margin-top:15px;
+	border:2px solid green;
+	height:100%;
+	width:100%;
 }
 
 .icon-list {
@@ -281,12 +359,13 @@ text-align:center;
 	font-size:50px;
 	list-style:none;
 	color:white;
-	text-align:left;
 }
 
 .icon-text {
-	font-size: 30px;s
+	font-size: 25px;
 }
+
+*/
 /*media sizes*/
 
 @media (max-width:768px)
