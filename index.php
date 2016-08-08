@@ -38,7 +38,7 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Me <b class="caret"></b></a>
 					<ul class="dropdown-menu">
 					<li><a href="#">LinkedIn</a></li>
-					<li><a href="mailto:tom..cpcr@gmail.com">E-mail</a></li>
+					<li><a href="mailto:tom.cpcr@gmail.com">E-mail</a></li>
 					</ul>
 				</li>
 				</ul>
@@ -97,9 +97,9 @@
 			<h1>Technical<br />Writing</h1>
 			<h2>Literally the next Shakespear</h2>
 			<hr style="width:50%" >
-			<p>Something something linguistic</p>
-			<p>Blah Blah</p>
-			<p>What's a wurrrrrrd</p>
+			<p>Freelance or Full-time</p>
+			<p>Years of writing experience</p>
+			<p>Unique composition and style</p>
 			<button type="button" class="btn btn-default btn-large btn-skills-2">Publications</button>
 			<hr style="width:50%" >
 			</div>
@@ -110,7 +110,7 @@
 <div class="container" id="resume">
 	<div class="row">
 		<div class="resume-inner">
-		<h1>MY RESUME</h1>
+		<h1>Craving my resume yet?</h1>
 		<i class="fa fa-arrow-down resume-arrow"></i>
 			<div class="resume-btn-container">
 				<button type="button" class="btn btn-default btn-large btn-resume">Resume</button>
@@ -127,9 +127,9 @@
 		<div class="contact-icon-container">
 			<ul >
 				<li class="footer-list-item"><a href="#contact-section"><button type="button" class="btn-footer-list-item"><i class="fa fa-angle-left"></i>&nbsp&nbsp&nbsp<i class="fa fa-envelope"></i>&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></button></a></li>
-				<li class="footer-list-item"><a href="#"><button type="button" class="btn-footer-list-item"><i class="fa fa-angle-left"></i>&nbsp&nbsp&nbsp<i class="fa fa-facebook">&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></i></button></a></li>
-				<li class="footer-list-item"><a href="#"><button type="button" class="btn-footer-list-item"><i class="fa fa-angle-left"></i>&nbsp&nbsp&nbsp<i class="fa fa-linkedin">&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></i></button></a></li>
-				<li class="footer-list-item"><a href="#"><button type="button" class="btn-footer-list-item"><i class="fa fa-angle-left"></i>&nbsp&nbsp&nbsp<i class="fa fa-twitter">&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></i></button></a></li>
+				<li class="footer-list-item"><a href="#"><button type="button" class="btn-footer-list-item"><i class="fa fa-angle-left"></i>&nbsp&nbsp&nbsp<i class="fa fa-facebook"></i>&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></button></a></li>
+				<li class="footer-list-item"><a href="#"><button type="button" class="btn-footer-list-item"><i class="fa fa-angle-left"></i>&nbsp&nbsp&nbsp<i class="fa fa-linkedin"></i>&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></button></a></li>
+				<li class="footer-list-item"><a href="#"><button type="button" class="btn-footer-list-item"><i class="fa fa-angle-left"></i>&nbsp&nbsp&nbsp<i class="fa fa-twitter"></i>&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></button></a></li>
 			</ul>
 		</div>
 	</div>
