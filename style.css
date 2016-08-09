@@ -49,7 +49,7 @@ text-align:center;
 .header-filler h1{
 	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-size:6em;
-	font-weight: 700;
+	font-weight: 400;
 	color:white;
 
 }
@@ -180,15 +180,15 @@ text-align:center;
 .resume-inner>h1 {
 	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
 	padding-top:80px;
-	font-size:100px;
+	font-size:40px;
 	font-weight:450;
 
 }
 
 .resume-arrow {
-	font-size:80px;
-	padding-top:50px;
-	padding-bottom:50px;
+	font-size:40px;
+	padding-top:30px;
+	padding-bottom:30px;
 }
 .resume-btn-container{
 	height:150px;
@@ -200,7 +200,7 @@ text-align:center;
 	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
 	font-size:60px;
 	height:120px;
-	width:400px;
+	width:120px;
 	border-radius:10px;
 	border:3px solid #3b3738;
 	margin-bottom: 350px;
@@ -220,12 +220,12 @@ text-align:center;
 
 .about-inner h1{
 	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
-	font-size:50px;
+	font-size:35px;
 }
 
 .about-inner p {
 	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
-	font-size:20px;
+	font-size:15px;
 	line-height:150%;
 }
 

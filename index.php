@@ -49,9 +49,9 @@
 
 <header>
 	<div class="header-filler">
-		<h1>WELCOME TO MY PROFILE</h1>
+		<h1>Tom Li</h1>
 		<hr style="width:10%">
-		<p>I hope you enjoy your stay!</p>
+		<p>Web Developer / Writer</p>
 		<div class="outer-portrait">
 			<div class="portrait-container">
 				
@@ -65,7 +65,7 @@
 <div class="container" id="about">
 	<div class="row">
 		<div class="col-md-6 about-inner">
-		<h1><i class="fa fa-star" style="color:#ff6600"></i> About me</h1>
+		<h1> <i class="fa fa-quote-left" aria-hidden="true"></i>   About me</h1>
 		<p>Lorem ipsum dolor sit amet, ornare vitae augue fermentum, pede vitae, integer libero, massa nibh at nec adipiscing, sit et wisi pharetra est etiam. Nisl eu phasellus nulla pharetra, enim donec at, metus mi nec conubia ante integer, nonummy eget, donec lectus justo imperdiet leo.</p>
 		<p>Ac nulla ullam ornare arcu sunt torquent, ut nec nunc vehicula aliquam eu, vitae luctus vestibulum, aliquet diam nunc tincidunt nunc odio cursus. </p>
 		</div>
@@ -110,10 +110,10 @@
 <div class="container" id="resume">
 	<div class="row">
 		<div class="resume-inner">
-		<h1>Craving my resume yet?</h1>
+		<h1>Want more info? <span style="color:#ff6600"><em> Check out my C.V!</em></span></h1>
 		<i class="fa fa-arrow-down resume-arrow"></i>
 			<div class="resume-btn-container">
-				<button type="button" class="btn btn-default btn-large btn-resume">Resume</button>
+				<button type="button" class="btn btn-default btn-large btn-resume"><i class="fa fa-file-text" aria-hidden="true"></i></button>
 			</div>
 		</div>
 	</div>
